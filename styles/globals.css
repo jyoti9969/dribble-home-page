@@ -9,6 +9,7 @@
 }
 body{
   background-color: #f8f7f4;
+  zoom: 1.25;
 }
 .badge-color-cycle {
   animation: badge-color-cycle 32s linear infinite;

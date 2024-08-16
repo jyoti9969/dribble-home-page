@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 const DesignCard=()=>{
 return(
  
@@ -10,10 +10,10 @@ return(
         <div className="flex flex-wrap  gap-8 items-center justify-center">
           {/* Card 1 */}
           <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image1.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image1.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/circle.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/circle.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -25,10 +25,10 @@ return(
 </div>
 
 <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image2.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image2.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo8.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo8.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -40,10 +40,10 @@ return(
 </div>
 
 <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image3.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image3.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo9.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo9.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -55,10 +55,10 @@ return(
 </div>
 
 <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image4.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image4.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo10.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo10.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -69,10 +69,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image14.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image14.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/circle.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/circle.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -84,10 +84,10 @@ return(
 </div>
 
 <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image6.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image6.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo11.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo11.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -98,10 +98,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image7.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image7.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo12.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo12.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -112,10 +112,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image8.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image8.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/circle.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/circle.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -126,10 +126,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image7.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image7.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo9.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo9.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -140,10 +140,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image10.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image10.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo10.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo10.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -154,10 +154,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image6.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image6.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo11.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo11.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -168,10 +168,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image2.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image2.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo12.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo12.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -182,10 +182,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image8.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image8.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo13.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo13.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -196,10 +196,10 @@ return(
   </div>
 </div>
  <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image14.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image14.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo14.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo14.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
@@ -211,10 +211,10 @@ return(
 </div>
    
    <div className="h-auto bg-white   overflow-hidden">
-  <Image src="/image2.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
+  <img src="/image2.png " alt="Emote Design" width={150} height={150} className="object-cover  rounded-md" />
   <div className="flex flex-row justify-between items-center  py-2">
     <div className="flex flex-row items-center space-x-2">
-      <Image src="/logo8.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
+      <img src="/logo8.png" alt="logo" width={15} height={15} className="object-cover rounded-full" />
       <div className="text-[8px] font-semibold">Emote</div>
       <button className="bg-gray-400 text-white text-[6px] font-semibold rounded px-1 py-0">Team</button>
     </div>
