@@ -7,27 +7,18 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body{
+  background-color: #f8f7f4;
+}
+.badge-color-cycle {
+  animation: badge-color-cycle 32s linear infinite;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@keyframes badge-color-cycle {
+  0% { background-color: #ffda79; }
+  25% { background-color: #79daff; }
+  50% { background-color: #da79ff; }
+  75% { background-color: #79ffda; }
+  100% { background-color: #ffda79; }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
